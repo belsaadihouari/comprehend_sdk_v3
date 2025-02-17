@@ -7,7 +7,6 @@ const input = { // BatchDetectEntitiesRequest
     LanguageCode: "en" || "es" || "fr" || "de" || "it" || "pt" || "ar" || "hi" || "ja" || "ko" || "zh" || "zh-TW", // required
   };
 
-
   const command = new BatchDetectEntitiesCommand(input);
 const response = await client.send(command);
 const entities = response.ResultList[0].Entities;
