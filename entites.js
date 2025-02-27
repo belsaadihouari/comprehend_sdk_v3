@@ -40,6 +40,10 @@ const input = { // BatchDetectEntitiesRequest
 
 
 
+
+
+
+
   
   const command = new BatchDetectEntitiesCommand(input);
 const response = await client.send(command);
