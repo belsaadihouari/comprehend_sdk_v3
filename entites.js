@@ -30,6 +30,9 @@ const input = { // BatchDetectEntitiesRequest
 
 
 
+
+  
+
   
 
   const command = new BatchDetectEntitiesCommand(input);
