@@ -31,12 +31,6 @@ const input = { // BatchDetectEntitiesRequest
 
 
 
-
-
-  
-
-
-  
   const command = new BatchDetectEntitiesCommand(input);
 const response = await client.send(command);
 const entities = response.ResultList[0].Entities;
