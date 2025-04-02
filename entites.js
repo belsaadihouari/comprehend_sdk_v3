@@ -13,3 +13,7 @@ const entities = response.ResultList[0].Entities;
         entities.forEach(entity => {
             console.log(`- Type: ${entity.Type}, Texte: ${entity.Text}, Score: ${entity.Score}`);
         });
+
+
+
+        
