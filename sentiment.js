@@ -2,6 +2,7 @@ import { ComprehendClient, BatchDetectSentimentCommand  } from "@aws-sdk/client-
 const client = new ComprehendClient({region:"eu-west-2"});
 const input = { // BatchDetectEntitiesRequest
     TextList: [ // CustomerInputStringList // required
+
       
       "Algeria faces significant challenges, including political instability and economic difficulties. Corruption remains widespread, affecting public trust in the government. Many citizens struggle with high unemployment rates, particularly among the youth, leading to frustration and a sense of hopelessness. Human rights concerns have also been raised, with restrictions on freedom of expression and assembly. These issues contribute to a complex and often difficult social climate in the country.",
     ],
