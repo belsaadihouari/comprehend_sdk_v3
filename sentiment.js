@@ -8,6 +8,9 @@ const input = { // BatchDetectEntitiesRequest
   };
 
 
+
+
+  
   const command = new BatchDetectSentimentCommand (input);
 const response = await client.send(command);
 console.log(response)
