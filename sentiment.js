@@ -198,8 +198,19 @@ const input = { // BatchDetectEntitiesRequest
 
 
 
-      
 
+
+
+
+
+
+
+
+
+
+
+
+      
 
 
 
